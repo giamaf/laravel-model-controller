@@ -27,7 +27,7 @@
                         <h6 class="card-subtitle mb-2 text-secondary">Date: {{ $movie->date }}</h6>
                         <h6 class="card-subtitle mb-2 text-danger">Vote: {{ $movie->vote }}</h6>
 
-                        <a href="{{ route('home') }}" class="card-link">Vai al film</a>
+                        <a href="{{ route('home') }}" class="card-link">Torna alla Home</a>
                     </div>
                 </div>
             </div>
